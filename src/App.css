@@ -1,0 +1,65 @@
+/* General */
+body {
+  background-image: url("./images/note-pad.jpg");
+  background-size: cover;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1000px!important;
+}
+
+
+/* Alphabet table */
+.letter {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.letter span {
+  font-size: 2.2rem;
+  border: 2px solid black;
+  border-radius: 100%;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+.letter span:hover {
+  background-color: rgb(255, 255, 0);
+}
+
+.inSecretWord-false {
+  background-color: red!important;
+}
+
+.inSecretWord-true {
+  background-color: green!important;
+}
+
+.disabled {
+  background-color: grey!important;
+}
+
+
+/* Hidden word section */
+.hidden-word {
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+
+/* Buttons */
+button {
+  width: 100%
+}
+
+
+/* Hangman Section */
+img {
+  width: 100%;
+}
+.result {
+  font-weight: 700;
+  text-align: center;
+}
